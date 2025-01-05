@@ -1,19 +1,20 @@
 import Paragraph from '../Paragraph'
-import Title from '../Title'
 
 import { Card, LinkButton } from './styles'
+import { TitleProjects } from '../Title/styles'
 
-const Project = () => (
-  <Card>
-    <Title>To-do List</Title>
-    <Paragraph type="secundary">
-      This to-do list app allows users to easily add, edit, and delete tasks. It
-      features a simple and user-friendly interface where tasks can be marked as
-      completed, helping users stay organized and manage their tasks
-      efficiently. The design prioritizes ease of use and accessibility,
-      offering a smooth task management experience.
-    </Paragraph>
-    <LinkButton>View</LinkButton>
+export type Props = {
+  image: string
+  title: string
+  description: string
+  link: string
+}
+
+const Project = ({ image, title, description, link }: Props) => (
+  <Card image={image} data-aos="flip-left">
+    <TitleProjects>{title}</TitleProjects>
+    <Paragraph type="principal">{description}</Paragraph>
+    <LinkButton href={link}>View</LinkButton>
   </Card>
 )
 
