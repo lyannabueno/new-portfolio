@@ -36,7 +36,7 @@ const About = () => {
 
       <Paragraph type="principal">
         Detail-oriented Front-End Developer with over{' '}
-        <strong>2 years of experience</strong>
+        <strong>2 years of experience </strong>
         in creating modern and efficient interfaces. Focused on{' '}
         <strong>
           performance optimization and process automation
