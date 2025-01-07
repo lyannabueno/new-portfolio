@@ -6,7 +6,6 @@ import list from './images/todolist.png'
 import wicked from './images/wicked-landingpage.png'
 import med from './images/medshop.png'
 import calculator from './images/averagecalculator.png'
-import random from './images/randomdrawinggenerator.png'
 import brewery from './images/alquimianaserra.png'
 import disney from './images/disneyplus.png'
 
@@ -21,13 +20,6 @@ const projectData = [
     link: 'https://calculadora-imc-flax-ten.vercel.app/'
   },
   {
-    image: wicked,
-    title: 'Wicked Film',
-    description:
-      'A promotional page with a countdown, synopsis, ticket options, and trailer. Showcases my ability to create immersive and visually appealing experiences with modern design.',
-    link: 'https://landing-page-wicked-film.vercel.app/'
-  },
-  {
     image: list,
     title: 'To-do List',
     description:
@@ -35,11 +27,11 @@ const projectData = [
     link: 'https://to-do-vue-peach.vercel.app/'
   },
   {
-    image: random,
-    title: 'Random Number Generator',
+    image: wicked,
+    title: 'Wicked Film',
     description:
-      'An application that generates random numbers based on a user-defined limit. Demonstrates skills in creating useful tools with clear logic and minimalistic design.',
-    link: 'https://drawing-generator-4uag.vercel.app/'
+      'A promotional page with a countdown, synopsis, ticket options, and trailer. Showcases my ability to create immersive and visually appealing experiences with modern design.',
+    link: 'https://landing-page-wicked-film.vercel.app/'
   },
   {
     image: med,
@@ -49,11 +41,11 @@ const projectData = [
     link: 'https://med-shop.vercel.app/'
   },
   {
-    image: disney,
-    title: 'DisneyPlus Interface Clone',
+    image: brewery,
+    title: 'Brewery Website',
     description:
-      "A replication of the DisneyPlus streaming platform's design. This project reflects skills in recreating complex interfaces and delivering consistent, intuitive visual experiences.",
-    link: 'https://clone-disneyplus-eight-gules.vercel.app/'
+      'A website showcasing events, menus, and house specialties like craft beers. Highlights the ability to develop content-rich websites with a focus on visitor experience.',
+    link: 'https://projeto-cervejaria.vercel.app/'
   },
   {
     image: calculator,
@@ -63,11 +55,11 @@ const projectData = [
     link: 'https://lya-projeto-calculadora-medias.vercel.app/'
   },
   {
-    image: brewery,
-    title: 'Brewery Website',
+    image: disney,
+    title: 'DisneyPlus Interface Clone',
     description:
-      'A website showcasing events, menus, and house specialties like craft beers. Highlights the ability to develop content-rich websites with a focus on visitor experience.',
-    link: 'https://projeto-cervejaria.vercel.app/'
+      "A replication of the DisneyPlus streaming platform's design. This project reflects skills in recreating complex interfaces and delivering consistent, intuitive visual experiences.",
+    link: 'https://clone-disneyplus-eight-gules.vercel.app/'
   }
 ]
 
