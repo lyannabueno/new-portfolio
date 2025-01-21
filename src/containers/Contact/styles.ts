@@ -6,7 +6,6 @@ export const CardContact = styled.div`
   border: 1px solid ${(props) => props.theme.borderColor};
   width: 450px;
   box-sizing: border-box;
-
   @media (max-width: 768px) {
     width: 100%;
     margin-bottom: 20px;
